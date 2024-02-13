@@ -21,3 +21,10 @@ def is_prime(number):
         if number % i == 0:
             return False
     return True
+
+
+def gcd(x, y):
+    while y != 0:
+        x, y = y, x % y
+    return x
+
