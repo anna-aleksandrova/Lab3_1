@@ -1,4 +1,4 @@
-from utils import factorial, is_prime
+from utils import factorial, is_prime, gcd
 print(factorial(5))
 print(is_prime(3))
 print(gcd(8, 12))
